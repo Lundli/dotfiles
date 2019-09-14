@@ -1,0 +1,10 @@
+Set keyboard layout
+  Add following i i3 config file:
+    exec ... tbd
+
+
+Set scale:
+  create file .Xresources with "Xft.dpi:     200"
+  
+ 
+  
