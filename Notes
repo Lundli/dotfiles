@@ -1,10 +1,40 @@
+Set wallpaper:
+  i3 config file:
+  exec_always --no-startup-id --bg-max /path/To/File/image.jpg
+  
+  
+
 Set keyboard layout
   Add following i i3 config file:
-    exec ... tbd
+  
+    exec --no-startup-id setxkbmap -layout no
 
 
-Set scale:
+Set scale of programs:
   create file .Xresources with "Xft.dpi:     200"
   
+
+Set scale of i3 window manager:
+  i3 config file:
+  
+  exec --no-startup-id xrandr --dpi 200
+  
+  
+Compton at boot:
+  exec --no-startup-id compton -b
+  (compton must be installed and configured!)
+  
+
+  
+  
+  
+Set keybindings:
+  i3 config file:
+    exec --no-startup-id xbindkeys
  
   
+
+
+Keybindings i3:
+bindsym $mod+shift+x exec --no-startup-id xsecurelock (dependency: xsecurelock installed)
+bindsym $mod+shift+w exec firefox
