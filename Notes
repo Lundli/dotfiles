@@ -25,6 +25,10 @@ Compton at boot:
   (compton must be installed and configured!)
   
 
+ 
+Change dmemu to
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+(so that only applications are shown)
   
   
   
