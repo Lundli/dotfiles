@@ -42,3 +42,9 @@ Set keybindings:
 Keybindings i3:
 bindsym $mod+shift+x exec --no-startup-id xsecurelock (dependency: xsecurelock installed)
 bindsym $mod+shift+w exec firefox
+
+
+
+
+## Note: ctrl+f shortcut may not work in browser. This is because this shortcut is already in use
+Please see ~/.xbindkeysrc, and remove line regarding this shortcut
