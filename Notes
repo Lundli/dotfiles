@@ -13,6 +13,8 @@ Set keyboard layout
 Set scale of programs:
   create file .Xresources with "Xft.dpi:     200"
   
+Make focus not follow mouse placement
+   focus_follows_mouse no
 
 Set scale of i3 window manager:
   i3 config file:
